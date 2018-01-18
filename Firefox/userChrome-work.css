@@ -1,0 +1,88 @@
+/*
+chrome://browser/content/browser.xul
+*/
+/*
+#navigator-toolbox{
+    display: grid;
+   grid-template-columns: 60% 40%;
+  grid-template-rows: 30px;
+}
+#TabsToolbar{
+    grid-column: 1;
+    grid-row: 1;
+
+}
+#nav-bar{
+   grid-column: 2;
+   grid-row: 1;
+   height: 20px;
+}
+#navbar-customization-target{
+    width: 200px;
+}
+#toolbar-menubar{
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 5;
+}
+
+#PersonalToolbar{
+    display: none;
+}
+#back-button{
+    padding: 0 !important;
+}
+#tabbrowser-tabs{
+    background: rgb(242, 241, 240);
+}
+.tab-close-button{
+  display: none;
+}
+#alltabs-button{
+  visibility: visible !important;
+  background: rgb(242, 241, 240);
+  margin: 0 !important;
+}
+#urlbar{
+    margin: 0;
+}
+*/
+#navigator-toolbox{
+    display: grid;
+   grid-template-columns: 60% 40%;
+  grid-template-rows: 35px;
+}
+#TabsToolbar{
+    grid-column: 1;
+    grid-row: 1;
+
+}
+#nav-bar{
+   grid-column: 2;
+   grid-row: 1;
+   height: 20px;
+}
+#nav-bar-customization-target{
+   width: calc(100% - 80px);
+}
+#PanelUI-button{
+  float: right;
+}
+#toolbar-menubar{
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 5;
+}
+#alltabs-button{
+  visibility: visible !important;
+margin-top: -5px !important;
+}
+
+.tabbrowser-tab{
+  width: 200px !important;
+} 
+
+.autocomplete-richlistitem[selected],
+treechildren.searchbar-treebody::-moz-tree-row(selected) {
+  background-color: red;
+}
