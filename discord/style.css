@@ -1,0 +1,220 @@
+.app,textarea {
+    font-family: "Helvetica neue";
+}
+
+.quote,
+.attribution,
+.collapsed .channel-voice-states,
+.guild-channels header,
+.guilds-add,
+.links,
+.account-details,
+.scrollbar,
+.icon-settings,
+.icon-instant-invite,
+div[class^="attachButtonDivider"],
+svg[name="Gear"][class^="actionIcon"],
+div[class^="iconSpacing"]>svg[class^="icon"],
+svg[class^="color"],
+.guild-separator,
+.friends-online,
+svg[name="QuestionMark"],
+svg[name="NotificationBell"]{
+    display: none;
+}
+
+.guilds-error{
+display: none;}
+
+.message-group.compact {
+    padding: 0px 0px !important;
+    border: none;
+}
+.message,
+.chat form {
+    margin: 0 !important;
+}
+.channel-textarea {
+    margin: 10px 0 10px;
+}
+.account {
+    height: 65px !important;
+}
+.guilds-wrapper {
+    width: 40px;
+    height: 100% !important;
+    margin-left: 5px !important;
+}
+.guilds-wrapper .scroller-wrap{
+margin-left:-5px;}
+.guilds-wrapper .guilds {
+    width: 45px !important;
+    padding-top: 5px;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner a,
+.guilds-wrapper .guilds .guild {
+    width: 30px !important;
+    height: 30px !important;
+}
+.guilds-wrapper .guilds .guild .avatar-small {
+    background-size: 30px 30px !important;
+}
+.guilds-wrapper .guilds .friends-icon {
+    width: 30px !important;
+    height: 30px !important;
+    background-size: 15px 15px !important;
+}
+.guild-inner{
+    border-style: solid;
+    border-width: 2px;
+    margin: -2px;
+    width: 30px;
+border-color: rgb(32,34,37)}
+.unread .guild-inner{
+    border-color:  OrangeRed;
+
+}
+.selected .guild-inner{
+border-radius: 25px !important;}
+
+/*.channels-wrap {
+    width: 185px !important;
+}*/
+.account .avatar-small {
+    margin-right: 10px !important;
+}
+.channel-text a,
+.channel-voice a {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+.channel-voice,
+.title-wrap,
+.guild-header header {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.guild-header header span {
+    line-height: 20px !important;
+}
+.guild-header ul {
+    top: 20px !important;
+}
+.title-wrap {
+    min-height: 30px !important;
+}
+.guild-header header {
+    height: 30px !important;
+}
+.message-group {
+    margin-left: 0 !important;
+}
+.user-name {
+    font-size: 15px !important;
+}
+.markup {
+    margin-top: 2px !important;
+}
+.divider {
+    display: inline-block !important;
+}
+.channel-textarea {
+    margin-top: 0 !important;
+    padding-bottom: 10px !important;
+}
+.channel-textarea-inner {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+div[class^="button"],
+button[class^="iconButton"] {
+    max-width: 18px !important;
+}
+.member {
+    padding-left: 5px !important;
+    padding-top: 0 !important;
+}
+div[class^="contentSel"],
+div[class^="contentHov"] {
+    height: 20px !important;
+    margin-top: 7px !important
+}
+
+div[class^="flex-"]~ div[class^="flex-"]~ div[class^="containerDefault"] {
+    height: inherit !important;
+    margin-top: -10px !important
+}
+div[class^="flex-"]~ div[class^="flex-"]~ div[class^="containerDefault"]> div[class^="flex"] {
+    padding-left: 10px !important;
+}
+div[class^="channelTextArea"] {
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+}
+textarea[class^="textAreaEnabled"] {
+    padding: 0 !important;
+}
+
+
+/*--image expansions settings --*/
+
+.accessory {
+    padding-left: 0 !important;
+}
+.attachment-image img,
+.attachment-image canvas {
+    max-width: 100px !important;
+    max-height: 100px !important;
+    width: auto !important;
+    height: auto !important;
+    padding-left: 20px !important;
+}
+.attachment-image img:hover {
+    max-width: 100% !important;
+    max-height: 1000px !important;
+    padding-left: 20px !important;
+}
+.modal-image .image {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+/*--sidebar collapse -- */
+
+div[class^="guilds-wrapper"]:hover ~ div[class^="flex"] div[class^="flex"] div[class^="channels"],
+div[class^="channels"]:hover {
+    max-width: 240px !important;
+    position: absolute !important;
+    top: 70px !important;
+    z-index: 10 !important;
+}
+div[class^="channels"] {
+    max-width: 0 !important;
+    position: relative !important;
+    max-height: 600px !important;
+}
+.channel-members-wrap:hover {
+    max-width: 240px !important;
+}
+.channel-members-wrap {
+    max-width: 45px !important;
+    min-width: 0 !important;
+}
+div[class^="containerDefault"] div[class*="listDefault"] {
+    padding-left: 0 !important;
+}
+div[class^="channels"] div[class^="scroller-"] {
+    padding-right: 0 !important;
+}
+/**/
+div[class^="titleWrapper"]>div{
+    height: 30px;
+}
+div[class^="channels"] header[class^="header"]{
+box-shadow: none;
+}
+.message-group.compact .message .message-text .markup {
+    padding-left: 100px;
+    text-indent: -110px;
+}

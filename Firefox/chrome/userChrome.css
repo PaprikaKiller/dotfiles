@@ -1,0 +1,74 @@
+/*
+chrome://browser/content/browser.xul
+*/
+/*
+
+
+#content browser
+{
+margin-right:-17px!important;
+    overflow-y:scroll;
+    overflow-x:hidden;
+margin-bottom:-17px!important;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}*/
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+toolbarbutton#alltabs-button {
+    -moz-binding: url("userChrome.xml#js");
+}
+
+
+statuspanel[type="overLink"]{display: none !important;}
+
+#navigator-toolbox::after { display: none !important; }
+
+#navigator-toolbox{
+  display: inline-block !important;
+}
+#TabsToolbar {
+  width: calc(60% - 40px) !important;
+}
+#nav-bar {
+  width: calc(40% - 40px) !important;
+  margin-top: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+#PersonalToolbar,.titlebar-placeholder{
+display: none !important;
+}
+
+#toolbar-menubar{
+  position: absolute;
+  z-index: 5
+}
+
+#TabsToolbar, #tabbrowser-tabs,.tab-drop-indicator-box,.tabbrowser-arrowscrollbox,.arrowscrollbox-scrollbox,.scrollbox-innerbox{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#alltabs-button{
+  visibility: inherit !important;
+}
+#back-button, #forward-button{
+ display: none !important;
+}
+
+#nav-bar-customization-target{
+  height: 33px;
+}
+#urlbar{
+  margin: 0 !important;
+  border: 0 !important;
+}
+#titlebar-min,#titlebar-max,#titlebar-close{
+ padding-left: 8px !important;
+ padding-right: 8px !important;
+}
+/*
+#PopupAutoCompleteRichResult{
+  margin-top: 10px;
+
+}*/
